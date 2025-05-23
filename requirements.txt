@@ -1,0 +1,7 @@
+flask
+sqlalchemy
+python-dotenv
+alembic  # Pour les migrations de base de données (optionnel mais recommandé pour plus tard)
+psycopg2-binary # Si vous prévoyez d'utiliser PostgreSQL plus tard, sinon à commenter/supprimer
+# pika # Pour RabbitMQ, si choisi pour la communication
+# redis # Pour Redis, si choisi pour la communication
